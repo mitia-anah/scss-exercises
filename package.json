@@ -2,10 +2,9 @@
   "name": "scss-exercises",
   "version": "1.0.0",
   "description": "",
-   "scripts": {
-      "scss": "node-sass scss -o css",
-      "css:watch": "npm run scss && node-sass scss -w -o scss"
-
+  "scripts": {
+    "scss": "node-sass scss -o css",
+    "css:watch": "npm run scss && node-sass scss -w -o scss"
   },
   "repository": {
     "type": "git",
@@ -19,5 +18,8 @@
   "homepage": "https://github.com/onja-org/scss-exercises#readme",
   "devDependencies": {
     "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0"
   }
 }
