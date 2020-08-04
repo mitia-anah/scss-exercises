@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building a form</title>
+  <link rel="stylesheet" href="css/manifest.css">
+</head>
+
+<body>
+  <header>
+    <h1>Building a form</h1>
+  </header>
+  <form>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="container">
+            <div class="form-row">
+              <div class="form-group col-md-6 mb-3 col-form-label-lg">
+                <label for="inputFirstName">First name</label>
+                <input type="text" class="form-control" id="inputFirstName" name="first-name">
+              </div>
+              <div class="form-group col col-form-label-lg">
+                <label for="inputLastName">Last name</label>
+                <input type="text" class="form-control" id="inputLastName" name="last-name">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col col-form-label-lg">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder=" " name="email">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6 mb-3 col-form-label-lg">
+                <label for="inputState">What are you?</label>
+                <select id="inputState" class="form-control col-form-label-lg">
+                  <option selected>I AM A ROBOT...</option>
+                  <option>...</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check col-form-label-lg">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  I agree to the terms and conditions
+                </label>
+                <div class="invalid-feedback col-form-label-lg">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary col-form-label-lg" type="submit">Save</button>
+          </div>
+
+          <aside class="col-md-4 offset-md-1 alert alert-primary">
+            <p class="lead">Thank you for registering with us</p>
+            <p>We wont't sell your information</p>
+          </aside>
+  </form>
+
+</body>
+
+</html>
