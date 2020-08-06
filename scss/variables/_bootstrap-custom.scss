@@ -86,7 +86,10 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "dark":       $dark
+    "dark":       $dark,
+    "black":      $black,
+    "red":        $red,
+    "white":      $white
   ),
   $theme-colors
 );
@@ -100,6 +103,10 @@ $yiq-contrasted-threshold:  150 !default;
 // Customize the light and dark text colors for use in our YIQ color contrast function.
 $yiq-text-dark:             $gray-900 !default;
 $yiq-text-light:            $white !default;
+
+// customize the white text color
+$text-white:                 $white;
+$text-dark:                  $gray-900;
 
 // Characters which are escaped by the escape-svg function
 $escaped-characters: (
@@ -1145,3 +1152,7 @@ $user-selects: all, auto, none !default;
 
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+
+// Panel padding
+
+$panel-padding: 2rem;
