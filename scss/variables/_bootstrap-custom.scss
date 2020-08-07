@@ -89,7 +89,7 @@ $theme-colors: map-merge(
     "dark":       $dark,
     "black":      $black,
     "red":        $red,
-    "white":      $white
+    "white":      $white,
   ),
   $theme-colors
 );
@@ -1156,3 +1156,5 @@ $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
 // Panel padding
 
 $panel-padding: 2rem;
+
+// app's heading colour
